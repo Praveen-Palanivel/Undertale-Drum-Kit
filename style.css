@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Monster Friend';
+    src: url('./font/MonsterFriendFore.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: black
+}
+
+h1 {
+    padding: 50px;
+}
+
+.image {
+    height: 200px;
+    margin: 30px;
+}
+
+.press {
+    height: 30px;
+    margin: 30px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 blue;        
+    opacity: 0.5;
+}
+
+.m {
+    background-image: url("./images/Muffet_battle_idle.webp");
+}
+
+.p {
+    background-image: url("./images/papyrus_centered.gif");
+}
+
+.s {
+    background-image: url("./images/sans_fight_resized.gif");
+}
+
+.u {
+    background-image: url("./images/Undyne_battle_armor.webp");
+}
+
+.t {
+    background-image: url("./images/Mettaton_EX_battle.webp");  
+}
+
+.g {
+    background-image: url("./images/idle-ghost.gif");
+}
+
+.f{
+    background-image: url("./images/Flowey_battle_talk.webp");
+}
+
+.UnderTale {
+    outline: none;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border: 10px solid yellow;
+    border-radius: 15px;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    margin: 20px;
+  }
+
+.label {
+    color: red;
+    font-family: 'Monster Friend';
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin: 30px;
+}
+
+#stop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.stop {   
+    font-size: 25px;
+    font-family: 'Monster Friend';
+    letter-spacing: 2px;
+    text-align: center;
+    height: 60px;
+    width: 150px;
+    background: black;
+    color: #ff9900;
+    border: 2px solid #ff9900;
+}
+
+.stop:hover {
+    color: #ffff33;
+    border: 2px solid #ffff33;
+}
