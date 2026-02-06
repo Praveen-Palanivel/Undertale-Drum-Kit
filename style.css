@@ -17,6 +17,7 @@ h1 {
 .image {
     height: 200px;
     margin: 30px;
+    cursor: pointer;
 }
 
 .press {
@@ -68,6 +69,7 @@ h1 {
     height: 160px;
     text-align: center;
     margin: 20px;
+    cursor: pointer;
   }
 
 .label {
@@ -98,6 +100,7 @@ h1 {
     background: black;
     color: #ff9900;
     border: 2px solid #ff9900;
+    cursor: pointer;
 }
 
 .stop:hover {
